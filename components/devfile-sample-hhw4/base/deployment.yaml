@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hhw4
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0018-tenant/ci1t-830-0018-app/devfile-sample-hhw4@sha256:30d24e67542a0cd41628c47d658ef9c483237aa48b54f2b4a2f78994e991493c
         name: my-nodejs
         ports:
         - containerPort: 3001
